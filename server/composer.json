@@ -1,0 +1,20 @@
+{
+    "name": ".../...",
+    "config": {
+        "platform": {
+            "hhvm": "4.16.1"
+        }
+    },
+    "require": {
+        "hhvm/hsl": "^4.7",
+        "hhvm/hhvm-autoload": "^2.0",
+        "hhvm": "^4.16"
+    },
+    "require-dev": {
+        "hhvm/hhast": "^4.15",
+        "hhvm/hacktest": "^1.6",
+        "facebook/fbexpect": "^2.6",
+        "facebook/hack-codegen": "^4.3",
+        "facebook/definition-finder": "^2.12"
+    }
+}
