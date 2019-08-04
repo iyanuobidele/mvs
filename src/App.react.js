@@ -1,13 +1,21 @@
-import React, { Component } from 'react';
+// @flow
+
+import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+type Props = {
+ logo: string,
+};
+
+type State = {||};
+
+class App extends React.Component<Props, State> {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={this.props.logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
