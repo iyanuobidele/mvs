@@ -1,11 +1,10 @@
 // @flow
 
 import * as React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 type Props = {
- logo: string,
+  logo: string,
 };
 
 type State = {||};
