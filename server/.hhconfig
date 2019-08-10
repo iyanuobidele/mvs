@@ -1,0 +1,6 @@
+########################################################
+#   This is the hhconfig for mvs hack client.          #
+########################################################
+
+# namespace alias
+auto_namespace_map = {"Dict": "HH\\Lib\\Dict", "Math": "HH\\Lib\\Math", "Str": "HH\\Lib\\Str", "Vec": "HH\\Lib\Vec", "Keyset": "HH\\Lib\\Keyset", "PHP": "HH\\Lib\\PHP", "C": "HH\\Lib\\C", "Regex": "HH\\Lib\\Regex", "SecureRandom": "HH\\Lib\\SecureRandom", "PseudoRandom": "HH\\Lib\\PseudoRandom"}
